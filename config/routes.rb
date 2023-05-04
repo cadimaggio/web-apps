@@ -3,4 +3,7 @@
 Rails.application.routes.draw do
   resources "tacos" # must type into terminal "rails generate controller tacos" Creates tacos_controller.rb and something under the app folder
   resources "dice"
+  resources "poker"
+  resources "companies"
+  resources "contacts"
 end
